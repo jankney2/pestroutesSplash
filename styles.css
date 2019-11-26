@@ -29,6 +29,7 @@ section {
   }
   .module-inside {
     position: relative;
+    
   }
 
 
@@ -46,6 +47,7 @@ section {
     text-align: center;
     padding:3%;
     background-color: chocolate;
+    
 }
 
 section h1 {
@@ -81,6 +83,11 @@ section p {
 
 @media screen and (max-width:445px){
     .module::before {
-        background-image: url('')
+        background-image: url('https://images.unsplash.com/photo-1568121581570-a30e94219113?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')
+    }
+
+    .module-inside {
+        max-width: 80%;
+        padding:1%;
     }
 }

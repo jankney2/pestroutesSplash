@@ -24,7 +24,6 @@ body {
     background-position: center;
   }
   .module-inside {
-    /* This will make it stack on top of the ::before */
     position: relative;
   }
 
@@ -40,9 +39,6 @@ body {
 section {
     border: 1px solid #000;
     border-radius: 20px;
-    /* width:50%;
-    margin-left:25%;
-    margin-top: 15%; */
     text-align: center;
     padding:3%;
     background-color: chocolate;
@@ -56,3 +52,13 @@ section p {
     font-size: 18px;
 }
 
+
+
+
+/*  Ipad */
+
+@media screen and (max-width:800px){
+    .module::before {
+        background-image: url('https://images.unsplash.com/photo-1563283323-afa46a75568c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1329&q=80')
+    }
+}

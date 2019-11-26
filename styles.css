@@ -63,7 +63,7 @@ section p {
 
 /*  Ipad */
 
-@media screen and (max-width:800px){
+@media screen and (max-width:1024px){
     .module::before {
         background-image: url('https://images.unsplash.com/photo-1563283323-afa46a75568c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1329&q=80')
     }
@@ -88,6 +88,10 @@ section p {
 
     .module-inside {
         max-width: 80%;
-        padding:1%;
+        padding:1.5%;
+    }
+
+    section h1{
+        font-size: 24px;
     }
 }

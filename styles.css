@@ -2,11 +2,15 @@
 
 body {
   font-family: "Noto Sans TC", sans-serif;
-
+    box-sizing: border-box;
     margin:0;
     padding:0;
 }
 
+section {
+    margin:0;
+    padding:0;
+}
 
 .module {
     position: relative;
@@ -60,5 +64,23 @@ section p {
 @media screen and (max-width:800px){
     .module::before {
         background-image: url('https://images.unsplash.com/photo-1563283323-afa46a75568c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1329&q=80')
+    }
+
+    .contain {
+        display:block;
+
+    }
+
+    .module-inside {
+        max-width: 50%;
+        margin:auto;
+        margin-top:33%;
+    }
+}
+
+
+@media screen and (max-width:445px){
+    .module::before {
+        background-image: url('')
     }
 }

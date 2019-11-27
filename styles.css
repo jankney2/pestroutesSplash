@@ -1,7 +1,10 @@
-@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+
+
 
 body {
-  font-family: "Noto Sans TC", sans-serif;
+  font-family: "Roboto", sans-serif;
     box-sizing: border-box;
     margin:0;
     padding:0;
@@ -31,33 +34,36 @@ section {
   .module-inside {
     position: relative;
     box-shadow: 4px 4px 6px rgba(0,0,0,.5);
-    
+    max-width: 60%;
+    top:15%;
+    margin: auto;
   }
 
 
 .contain {
-    border: 1px solid #000;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+    /* border: 1px solid #000; */
+    /* display:flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    height: 93vh;
     
 }
 section {
     /* border: 1px solid #000; */
     border-radius: 20px;
     text-align: center;
+    letter-spacing: .33px;
     padding:3%;
-    background-color: chocolate;
-    
+    /* background-image: linear-gradient(to right, #31d291, #1f1f1f); */
+    background-color: rgba(49,210,145,.95);
 }
 
 section h1 {
-    font-size: 36px;
+    font-size: 42px;
 }
 
 section p {
-    font-size: 18px;
+    font-size: 24px;
 }
 
 

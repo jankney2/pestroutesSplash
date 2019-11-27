@@ -1,116 +1,122 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
-
-
-
 body {
   font-family: "Roboto", sans-serif;
-    box-sizing: border-box;
-    margin:0;
-    padding:0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 section {
-    margin:0;
-    padding:0;
+  margin: 0;
+  padding: 0;
 }
 
 .module {
-    position: relative;
-  }
-  .module::before {
-    content: "";
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    background-image: url('https://images.unsplash.com/photo-1504817281472-f56fda3040a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1338&q=80');
-    filter: grayscale(50%);
-    /* filter:blur(15px); */
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-  .module-inside {
-    position: relative;
-    box-shadow: 4px 4px 6px rgba(0,0,0,.5);
-    max-width: 60%;
-    top:15%;
-    margin: auto;
-  }
-
+  position: relative;
+}
+.module::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://images.unsplash.com/photo-1504817281472-f56fda3040a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1338&q=80");
+  filter: grayscale(50%);
+  /* filter:blur(15px); */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.module-inside {
+  position: relative;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+  max-width: 60%;
+  top: 15%;
+  margin: auto;
+}
 
 .contain {
-    /* border: 1px solid #000; */
-    /* display:flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    height: 93vh;
-    
+  /* border: 1px solid #000; */
+  /* display:flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  height: 93vh;
 }
 section {
-    /* border: 1px solid #000; */
-    border-radius: 20px;
-    text-align: center;
-    letter-spacing: .33px;
-    padding:3%;
-    /* background-image: linear-gradient(to right, #31d291, #1f1f1f); */
-    background-color: rgba(49,210,145,.95);
+  /* border: 1px solid #000; */
+  border-radius: 20px;
+  text-align: center;
+  letter-spacing: 0.33px;
+  padding: 3%;
+  /* background-image: linear-gradient(to right, #31d291, #1f1f1f); */
+  background-color: rgba(49, 210, 145, 0.95);
 }
 
 section h1 {
-    font-size: 42px;
+  font-size: 42px;
 }
 
 section p {
-    font-size: 24px;
+  font-size: 24px;
 }
 
-
 nav {
-    padding: .5%;
+  padding: 0.5%;
 }
 
 nav img {
-    /* border: 1px solid #000; */
-    /* width:100%; */
-    display:block;
-    margin: auto;
+  /* border: 1px solid #000; */
+  /* width:100%; */
+  display: block;
+  margin: auto;
 }
-
-
 
 /*  Ipad */
 
-@media screen and (max-width:1024px){
-    .module::before {
-        background-image: url('https://images.unsplash.com/photo-1563283323-afa46a75568c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1329&q=80')
-    }
+@media screen and (max-width: 1024px) {
+  .module::before {
+    background-image: url("https://images.unsplash.com/photo-1563283323-afa46a75568c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1329&q=80");
+  }
 
-    .contain {
-        display:block;
+  .contain {
+    display: block;
+  }
 
-    }
-
-    .module-inside {
-        max-width: 50%;
-        margin:auto;
-        margin-top:33%;
-    }
+  .module-inside {
+    max-width: 50%;
+    margin: auto;
+    margin-top: 33%;
+  }
 }
 
+@media screen and (max-width: 445px) {
+  .module::before {
+    background-image: url("https://images.unsplash.com/photo-1568121581570-a30e94219113?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+  }
 
-@media screen and (max-width:445px){
-    .module::before {
-        background-image: url('https://images.unsplash.com/photo-1568121581570-a30e94219113?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')
-    }
+  .module-inside {
+    max-width: 80%;
+    padding: 1.5%;
 
-    .module-inside {
-        max-width: 80%;
-        padding:1.5%;
-    }
+    position: relative;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+    max-width: 75%;
+    top: 10%;
+    margin: auto;
+  }
 
-    section h1{
-        font-size: 24px;
-    }
+  section h1 {
+    font-size: 24px;
+  }
+
+  section p {
+    font-size: 18px;
+  }
+
+  .contain {
+    border: 1px solid #000;
+  }
 }

@@ -67,6 +67,17 @@ section p {
 }
 
 
+nav {
+    padding: .5%;
+}
+
+nav img {
+    /* border: 1px solid #000; */
+    /* width:100%; */
+    display:block;
+    margin: auto;
+}
+
 
 
 /*  Ipad */

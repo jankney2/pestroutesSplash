@@ -83,13 +83,25 @@ nav img {
 
   .contain {
     display: block;
+    border: 1px solid #fff;
+    height:97vh;
   }
 
   .module-inside {
     max-width: 50%;
     margin: auto;
-    margin-top: 33%;
+    top:25%;
   }
+
+  section h1 {
+    font-size: 50px;
+  }
+
+  section p {
+    font-size: 28px;
+  }
+
+
 }
 
 @media screen and (max-width: 445px) {
@@ -117,6 +129,9 @@ nav img {
   }
 
   .contain {
-    border: 1px solid #000;
+    /* border: 1px solid transparent; */
   }
 }
+
+
+

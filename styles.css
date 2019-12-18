@@ -102,6 +102,19 @@ nav img {
   }
 }
 
+/* ipad reg */
+@media screen and (max-width: 769px) {
+  section h1{
+    font-size: 48px;
+  }
+
+  section p {
+    font-size: 36px;
+  }
+  
+}
+
+/* phones */
 @media screen and (max-width: 445px) {
   .contain {
     width: 105%;

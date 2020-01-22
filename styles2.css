@@ -108,6 +108,10 @@ nav img {
     font-size: 48px;
   }
 
+.module-inside {
+  top:10%;
+}
+
   section p {
     font-size: 36px;
   }
